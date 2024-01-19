@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d369ab2-dac0-46b3-b4cb-a9bd2eae6e0d" name="Changes" comment="Создал проект &#10;Создал модели Категорий и Продуктов">
-      <change afterPath="$PROJECT_DIR$/myshop/shop/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5d369ab2-dac0-46b3-b4cb-a9bd2eae6e0d" name="Changes" comment="Изменил структура проекта&#10;Добавил модели в Админ Панель">
       <change beforePath="$PROJECT_DIR$/myshop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,11 +95,20 @@
       <option name="project" value="LOCAL" />
       <updated>1705694961984</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Изменил структура проекта&#10;Добавил модели в Админ Панель">
+      <option name="closed" value="true" />
+      <created>1705696915315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705696915315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создал проект &#10;Создал модели Категорий и Продуктов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал проект &#10;Создал модели Категорий и Продуктов" />
+    <MESSAGE value="Изменил структура проекта&#10;Добавил модели в Админ Панель" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменил структура проекта&#10;Добавил модели в Админ Панель" />
   </component>
 </project>
