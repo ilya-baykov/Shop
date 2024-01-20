@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d369ab2-dac0-46b3-b4cb-a9bd2eae6e0d" name="Changes" comment="Создал представления &#10;Список всех продуктов&#10;Информация по конкретному продукту">
-      <change afterPath="$PROJECT_DIR$/myshop/shop/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/shop/static/img/no_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/myshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myshop.iml" afterDir="false" />
+    <list default="true" id="5d369ab2-dac0-46b3-b4cb-a9bd2eae6e0d" name="Changes" comment="Сделал шаблон отображения всех категорий и продуктов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/myshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/myshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/myshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/myshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/shop/templates/shop/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/product/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myshop/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705699851225</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Сделал шаблон отображения всех категорий и продуктов">
+      <option name="closed" value="true" />
+      <created>1705741997293</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705741997293</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,6 +141,7 @@
     <MESSAGE value="Изменил структура проекта&#10;Добавил модели в Админ Панель" />
     <MESSAGE value="Добавил категорию - Чай&#10;И добавил в продукты несколько видов чая" />
     <MESSAGE value="Создал представления &#10;Список всех продуктов&#10;Информация по конкретному продукту" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал представления &#10;Список всех продуктов&#10;Информация по конкретному продукту" />
+    <MESSAGE value="Сделал шаблон отображения всех категорий и продуктов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал шаблон отображения всех категорий и продуктов" />
   </component>
 </project>
