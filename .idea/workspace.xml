@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d369ab2-dac0-46b3-b4cb-a9bd2eae6e0d" name="Changes" comment="Добавил urls">
-      <change afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/base.html" afterDir="false" />
+    <list default="true" id="5d369ab2-dac0-46b3-b4cb-a9bd2eae6e0d" name="Changes" comment="Создал представления &#10;Список всех продуктов&#10;Информация по конкретному продукту">
+      <change afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/product/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/shop/templates/shop/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/product/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/myshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/myshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,25 +28,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2bBfTJqzx3odn1H1uerJAxLjqKH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.runserver.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ilyabaykov/PycharmProjects/Chapter08/myshop/myshop/manage.py&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.runserver.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/ilyabaykov/PycharmProjects/Chapter08/myshop/myshop/manage.py"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/myshop" />
@@ -122,15 +125,7 @@
       <option name="project" value="LOCAL" />
       <updated>1705699851225</updated>
     </task>
-    <task id="LOCAL-00005" summary="Добавил urls">
-      <option name="closed" value="true" />
-      <created>1705700257909</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1705700257909</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,7 +133,6 @@
     <MESSAGE value="Изменил структура проекта&#10;Добавил модели в Админ Панель" />
     <MESSAGE value="Добавил категорию - Чай&#10;И добавил в продукты несколько видов чая" />
     <MESSAGE value="Создал представления &#10;Список всех продуктов&#10;Информация по конкретному продукту" />
-    <MESSAGE value="Добавил urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал представления &#10;Список всех продуктов&#10;Информация по конкретному продукту" />
   </component>
 </project>
