@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d369ab2-dac0-46b3-b4cb-a9bd2eae6e0d" name="Changes" comment="Теперь категории находятся через get_object_or_404">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/myshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myshop.iml" afterDir="false" />
+    <list default="true" id="5d369ab2-dac0-46b3-b4cb-a9bd2eae6e0d" name="Changes" comment="Вернулся на основную версию , спасаю коммиты )">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/shop/templates/shop/product/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/product/detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705742105232</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Вернулся на основную версию , спасаю коммиты )">
+      <option name="closed" value="true" />
+      <created>1705854745720</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705854745720</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,6 +165,7 @@
     <MESSAGE value="Создал представления &#10;Список всех продуктов&#10;Информация по конкретному продукту" />
     <MESSAGE value="Сделал шаблон отображения всех категорий и продуктов" />
     <MESSAGE value="Теперь категории находятся через get_object_or_404" />
-    <option name="LAST_COMMIT_MESSAGE" value="Теперь категории находятся через get_object_or_404" />
+    <MESSAGE value="Вернулся на основную версию , спасаю коммиты )" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вернулся на основную версию , спасаю коммиты )" />
   </component>
 </project>
