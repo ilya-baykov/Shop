@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d369ab2-dac0-46b3-b4cb-a9bd2eae6e0d" name="Changes" comment="Создал приложени cart">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5d369ab2-dac0-46b3-b4cb-a9bd2eae6e0d" name="Changes" comment="Постарался восстановить файлы">
       <change beforePath="$PROJECT_DIR$/myshop/shop/templates/shop/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/shop/templates/shop/product/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/product/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myshop/shop/templates/shop/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/product/list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705856144355</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Постарался восстановить файлы">
+      <option name="closed" value="true" />
+      <created>1706007057831</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706007057831</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +217,7 @@
     <MESSAGE value="Теперь категории находятся через get_object_or_404" />
     <MESSAGE value="Вернулся на основную версию , спасаю коммиты )" />
     <MESSAGE value="Вернул все файлы ( вроде )&#10;Сделал представление и отображение шаблона с детальной информацией по товару" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вернул все файлы ( вроде )&#10;Сделал представление и отображение шаблона с детальной информацией по товару" />
+    <MESSAGE value="Постарался восстановить файлы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Постарался восстановить файлы" />
   </component>
 </project>
