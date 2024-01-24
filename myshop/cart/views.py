@@ -1,9 +1,9 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.views.decorators.http import require_POST
 
-from myshop.cart.cart import Cart
-from myshop.cart.forms import CartAddProductForm
-from myshop.shop.models import Product
+from .cart import Cart
+from .forms import CartAddProductForm
+from shop.models import Product
 
 
 # Create your views here.
@@ -28,4 +28,4 @@ def cart_remove(request, product_id):
 
 def cart_detail(request):
     cart = Cart(request)
-    return render(request, 'cart/detail.html', {'cart':cart})
+    return render(request, 'cart/detail.html', {'cart': cart})
