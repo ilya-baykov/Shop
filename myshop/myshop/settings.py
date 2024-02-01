@@ -138,3 +138,4 @@ EMAIL_HOST_USER = 'ilya.baykov17@gmail.com'
 EMAIL_HOST_PASSWORD = 'lcwigwqxhinzrjlu'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
+
