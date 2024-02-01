@@ -5,10 +5,14 @@ from .models import Order
 
 @shared_task
 def order_created(order_id):
+    """
+    Задание по отправке уведомления по электронной почте
+    при успешном создании заказа.
+    """
     order = Order.objects.get(id=order_id)
-    order_email = order['email']
-    subject = f'Order nr. {order_id}'
-    message = f'Dear {order.first_name},\n\n You have successfully placed an order. Your order ID is {order_id}.'
-    mail_sent = send_mail(subject=subject, message=message, from_email='i-baykov@internet.ru',
-                          recipient_list=[order.email])
+    subject = f'Order nr. {order.id}'
+    message = f'Dear {order.first_name},\n\n' \
+              f'You have successfully placed an order.' \
+              f'Your order ID is {order.id}.'
+    mail_sent = send_mail(subject, message, 'ilya.baykov17@gmail.com', [order.email])
     return mail_sent
