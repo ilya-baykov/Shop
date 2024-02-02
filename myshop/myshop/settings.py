@@ -139,3 +139,8 @@ EMAIL_HOST_PASSWORD = 'lcwigwqxhinzrjlu'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 
+
+# Настроечные параметры Stripe
+STRIPE_PUBLISHABLE_KEY = '' # Публикуемый ключ
+STRIPE_SECRET_KEY = '' # Секретный ключ
+STRIPE_API_VERSION = '2022-08-01'
